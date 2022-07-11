@@ -163,7 +163,7 @@ export class ToastProvider extends Component<Props, State> {
     }, callback);
   };
 
-  render() {
+  render(): JSX.Element {
     const {
       autoDismiss: inheritedAutoDismiss,
       autoDismissTimeout,
